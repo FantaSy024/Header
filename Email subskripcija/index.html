@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marko Kaurin</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="img/kermit.webp" type="image/x-icon" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+    <input type="checkbox" id="toggle" />
+    <label for="toggle" class="show-btn">Show Modal</label>
+    <div class="wrapper">
+      <label for="toggle">
+        <i class="cancel-icon fas fa-times"></i>
+      </label>
+      <div class="icon"><i class="far fa-envelope"></i></div>
+      <div class="content">
+        <header>Become a Subscriber</header>
+        <p>
+          Subscribe to our blog and get the latest updates straight to your
+          inbox.
+        </p>
+      </div>
+      <form action="index.html" method="POST">
+        <div class="field">
+          <input
+            type="email"
+            class="email"
+            name="email"
+            placeholder="Email Address"
+          />
+        </div>
+      </form>
+      <div class="field btn">
+        <div class="layer"></div>
+
+        <button type="submit" name="subscribe">Subscribe</button>
+      </div>
+
+      <div class="text">We do not share your information.</div>
+    </div>
+  </body>
+</html>
